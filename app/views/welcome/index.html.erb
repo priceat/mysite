@@ -40,7 +40,7 @@
         <ul class="nav row">
           <li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
           <li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT ME</span></a></li>
-          <li data-slide="8" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">EDUCATION</span></a></li>
+          <li data-slide="8" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-8" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">EDUCATION</span></a></li>
           <li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">PROCESS</span></a></li>
           <li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">PROFESSIONAL</span></a></li>
           <li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
@@ -75,9 +75,9 @@
         </div><!-- /col-12 -->
       </div><!-- /row -->
       <div id="home-row-2" class="row clearfix">
-        <div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><%= image_tag 's02.png' %></div><span>PROFESSIONAL</span></div>
-        <div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><%= image_tag 's01.png' %></div><span>FREE THINKING</span></div>
-        <div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="8"><%= image_tag 's03.png' %></div><span>SAVVY</span></div>
+        <div class="col-12 col-lg-4 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><%= image_tag 's02.png' %></div><span>PROFESSIONAL</span></div>
+        <div class="col-12 col-lg-4 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><%= image_tag 's01.png' %></div><span>FREE THINKING</span></div>
+        <div class="col-12 col-lg-4 col-sm-4"><div class="home-hover navigation-slide" data-slide="8"><%= image_tag 's03.png' %></div><span>SAVVY</span></div>
       </div><!-- /row -->
     </div><!-- /container -->
   </div><!-- /slide1 -->
@@ -105,7 +105,7 @@
           Skills
         </h1>
         <!-- /col12 -->
-        <div class="col-4">
+        <div class="col-4 col-lg-3 col-sm-6">
           <p><i class="icon icon-laptop"></i></p>
           <h2 class="font-thin">Web <span class="font-semibold">Development</span></h2>
           <h4 class="font-thin">
@@ -116,30 +116,37 @@
                         • AJAX<br>
                         • JSON<br>
                         • SASS<br>
-                        • HTML5<br>
-                        • CSS3<br>
-                        • Bootstrap<br>
                         • jQuery<br>
                         • PostgreSQL<br>
           </h4>
         </div><!-- /col12 -->
-        <div class="col-4">
+        <div class="col-4 col-lg-3 col-sm-6">
           <p><i class="icon-lightbulb"></i></p>
           <h2 class="font-semibold">Innovation</h2>
           <h4 class="font-thin"> 
-                        • User-Centered Design<br>
-                        • Prototyping<br>
-                        • User Research<br>
                         • Information Architecture<br>
+                        • Wireframing<br>
+                        • Web/Mobile/Tablet Design <br>
+                        • Adobe Creative Suite<br>
+                        • HTML5<br>
+                        • CSS3<br>
+                        • Bootstrap<br>
+              </h4>
+        </div><!-- /col12 -->
+         <div class="col-4 col-lg-3 col-sm-6">
+          <p><i class="icon-sitemap"></i></p>
+          <h2 class="font-semibold">User <b>Experience</h2>
+          <h4 class="font-thin"> 
                         • Usability Testing<br>
                         • User Personas<br>
                         • User Flows<br>
+                        • User-Centered Design<br>
+                        • Prototyping<br>
+                        • User Research<br>
                         • User Interface Design<br>
-                        • Web/Mobile/Tablet Design <br>
-                        • Adobe Creative Suite<br>
-              </h4>
-        </div><!-- /col12 -->
-        <div class="col-4">
+          </h4>
+        </div>
+        <div class="col-4 col-lg-3 col-sm-6">
           <p><i class="icon-fighter-jet"></i></p>
           <h2 class="font-semibold">Leadership</h2>
           <h4 class="font-thin"> 
@@ -147,8 +154,8 @@
                         • Public Speaking<br>
                         • Account Management<br>
                         • Customer Service<br>
-                        • Two time Collegiate All-American<br>
-                        • Two time Collegiate Defense Captain<br>
+                        • 2x Collegiate All-American<br>
+                        • 2x Collegiate Defensive Captain<br>
           </h4>
         </div><!-- /col12 -->
       </div><!-- /row -->
@@ -247,7 +254,7 @@
         <div class="col-12 col-sm-2">
           <p><i class="icon icon-gift"></i></p>
           <h2 class="font-thin">Delivering<br><span class="font-semibold">the product</span></h2>
-          <h4 class="font-thin">And finally, voila! The product.<br>
+          <h4 class="font-thin">And finally, voila! The product.<br><br>
             <span class="font-semibold">The true beauty in life is what one can give to another.<br>
             - Eleanor Roosevelt</span>
            </h4>
@@ -269,7 +276,7 @@
     <!-- /row -->
       <div class="row content-row">
         <div class="col-md-6">
-          <%= link_to image_tag("VS.png"), "https://www.vincoskill.com" %><br>
+          <div class="regular-link"><%= link_to image_tag("VS.png"), "http://www.vincoskill.com", :target => "_blank" %><br></div>
           <h2 class="font-semibold">VincoSkill, Inc.<br>
             <span class="font-thin">August 2013 - Present</span></h2>
           <h3 class="font-semibold">Founder, CEO</h3>
@@ -279,7 +286,8 @@
             • Designed all wire frames for site UI and created user stories for better product UX.<br>
           </div>
         <div class="col-md-6">
-          <%= link_to image_tag('simceo.png'), "https://simceo.org" %><br>
+           <div class="regular-link">
+          <%= link_to image_tag('simceo.png'), "https://simceo.org", :target => "_blank" %></div><br>
           <h2 class="font-semibold">SimCEO, Inc.<br>
             <span class="font-thin">August 2014 - Present</span></h2>
           <h3 class="font-semibold">Head of Product Development</h3>
@@ -288,8 +296,8 @@
             • Communicated product needs with development team in order to ensure proper deliverables.<br>
             • Stress tested current code and debugged front end framework prior to eventual product rollout.<br>
           </div>
-        <div class="col-md-6">
-          <%= link_to image_tag("TrackVia.png"), "http://www.trackvia.com" %><br>
+        <div class="col-md-6"> <div class="regular-link reduce">
+          <%= link_to image_tag("TrackVia2.png"), "http://www.trackvia.com", :target => "_blank" %></div><br>
           <h2 class="font-semibold">TrackVia, Inc.<br>
             <span class="font-thin">October 2011 - July 2013</span></h2>
           <h3 class="font-semibold">Head of Eastern Sales & Product QA</h3>
@@ -329,7 +337,7 @@
       <div id="contact-row-4" class="row">
         <div class="col-sm-1 hidden-sm">&nbsp;</div>
         <div class="col-12 col-sm-2 with-hover-text">
-          <p><a target="_blank" href="#"><i class="icon icon-phone"></i></a></p>
+          <p><a href="#"><i class="icon icon-phone"></i></a></p>
           <span class="hover-text font-light">303-594-2508</span></a>
         </div><!-- /col12 -->
         <div class="col-12 col-sm-2 with-hover-text">
