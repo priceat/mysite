@@ -17,6 +17,140 @@
   margin-right: auto
   }
 
+.circular_1 {
+  width: 200px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url('Suit.JPG') no-repeat center;
+  margin-left: auto;
+  margin-right: auto
+  }
+
 .reduce {
   padding-top: 15px;
+}
+
+.frosty {
+  background:rgba(0,0,0, 0.5);
+}
+
+.frosty h1 {
+  color:#FF6600;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  color:white;
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+  border-radius:0;
+}
+
+body {
+  background: url('bp.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+
+.clr {
+  clear:both;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top:10px;
+  margin-bottom:15px;
+  padding:20px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin:10px;
+}
+
+
+.information {
+  color:#00CC00;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  text-align: center;
+  font-size: 350%;
+  font-weight: bold;
+}
+
+.information1 {
+  color:#FFFFFF;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+  text-align: center;
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.information2 {
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.navbar.navbar-inverse {
+  background:url('/assets/low_contrast_linen.png');
+  border-radius: 0;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  margin-bottom:0;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
+  font-family: 'streetwise_buddyregular';
+  font-size:26px;
+  margin-left:400px;
+}
+
+.writing {
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-size: 150%;
+}
+
+.section {
+  color:#FF0000;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.subsection {
+  color:#0000FF;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+  text-align: left;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.subsection1 {
+  color:#C0C0C0;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+  text-align: left;
+  font-size: 150%;
+  font-weight: bold;
 }
